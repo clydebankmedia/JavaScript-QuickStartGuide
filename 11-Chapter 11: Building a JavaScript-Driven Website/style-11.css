@@ -23,6 +23,10 @@ header {
     color: white;
 }
 
+/* Set about and contact-us to hidden by default */
+#about { display: none; }
+#contact { display: none; }
+
 /* Move the hamburger a bit to the left and down */
 .hamburger {
     margin-left: -20px;
@@ -57,12 +61,12 @@ section {
     list-style: none;
 }
 
-.about-us {
+.about {
     background-color: #C08552;
     color: white;
 }
 
-.contact-us, .contact-us a {
+.contact, .contact-us a {
     color: white;
 }
 
